@@ -14,7 +14,7 @@ jobs:
         name: Build
         kind: build
         with:
-          url: http://192.168.1.75:8081/job/DevOps
-          username: logicfocus
+          url: https://sda.preview.cb-demos.io/snaqvi-cbdemos/
+          username: c_aannamalai
           token: ${{ secrets.CI_TOKEN }}
-          job-name: sampleclinic
+          job-name: Pet%20Clinic%20Pipeline
