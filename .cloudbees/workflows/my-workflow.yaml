@@ -14,9 +14,9 @@ jobs:
         name: Build
         kind: build
         with:
-          url: https://sda.preview.cb-demos.io/snaqvi-cbdemos/
-          username: c_aannamalai
+          url: http://192.168.1.75:8081/job/DevOps
+          username: ashoklogicfocus
           token: ${{ secrets.CI_TOKEN }}
-          job-name: Pet%20Clinic%20Pipeline
+          job-name: sampleclinic
           test-type: Junit
           test-result-location: testReport
