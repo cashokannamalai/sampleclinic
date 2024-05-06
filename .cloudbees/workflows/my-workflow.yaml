@@ -20,3 +20,4 @@ jobs:
           job-name: Pet%20Clinic%20Pipeline
           test-type: Junit
           test-result-location: testReport
+          
