@@ -18,5 +18,4 @@ jobs:
           username: ashoklogicfocus
           token: ${{ secrets.CI_TOKEN }}
           job-name: sampleclinic
-          test-type: Junit
-          test-result-location: testReport
+         
