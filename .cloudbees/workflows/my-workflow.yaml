@@ -15,7 +15,7 @@ jobs:
         kind: build
         with:
           url: http://192.168.1.75:8081/job/DevOps
-          username: ashoklogicfocus
+          username: logicfocus
           token: ${{ secrets.CI_TOKEN }}
           job-name: sampleclinic
          
