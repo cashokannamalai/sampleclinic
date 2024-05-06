@@ -18,3 +18,5 @@ jobs:
           username: c_aannamalai
           token: ${{ secrets.CI_TOKEN }}
           job-name: Pet%20Clinic%20Pipeline
+          test-type: Junit
+          test-result-location: testReport
