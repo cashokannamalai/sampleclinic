@@ -14,10 +14,10 @@ jobs:
         name: Build
         kind: build
         with:
-          url: https://sda.preview.cb-demos.io/snaqvi-cbdemos/
+          url: https://sda.preview.cb-demos.io/snaqvi-cbdemos
           username: c_aannamalai
           token: ${{ secrets.CI_TOKEN }}
-          job-name: Pet%20Clinic%20Pipeline
+          job-name: Testclinic
           test-type: Junit
           test-result-location: testReport
           
