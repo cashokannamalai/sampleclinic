@@ -20,4 +20,3 @@ jobs:
           job-name: Testclinic
           test-type: Junit
           test-result-location: testReport
-          
