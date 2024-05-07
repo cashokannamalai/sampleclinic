@@ -1,0 +1,22 @@
+apiVersion: automation.cloudbees.io/v1alpha1
+kind: workflow
+name: My workflow
+
+on:
+  push:
+    branches:
+      - '**'
+
+jobs:
+  build:
+    steps:
+      - uses: cloudbees-io/cbci-run-job@v2
+        name: Build
+        kind: build
+        with:
+          url: http://192.168.1.75:8081/job/DevOps
+          username: logicfocus
+          token: ${{ secrets.CI75_TOKEN }}
+          job-name: sampleclinic
+          test-type: Junit
+          test-result-location: testReport
