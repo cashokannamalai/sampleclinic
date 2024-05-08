@@ -47,7 +47,3 @@ jobs:
         with:
           project-key: Testclinic
           token: 5742e315b5a397c2873e849d4bc04a609f5de921
-
-    needs:
-      - scan
-      - build
