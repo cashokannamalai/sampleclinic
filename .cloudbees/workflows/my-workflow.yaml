@@ -42,4 +42,9 @@ jobs:
         kind: scan
         with:
           language: LANGUAGE_JAVA
+      - uses: sbatchelder-cba/sonarqube-cba@v0.0.3
+        name: Scan GP
+        with:
+          project-key: Testclinic
+          token: 5742e315b5a397c2873e849d4bc04a609f5de921
       
