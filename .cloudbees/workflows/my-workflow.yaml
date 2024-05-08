@@ -22,7 +22,7 @@ jobs:
           test-result-location: testReport
 
 
-scan:
+  scan:
     steps:
       - uses: cloudbees-io/sonarqube-sast-scan-code@v1
         name: Scan
