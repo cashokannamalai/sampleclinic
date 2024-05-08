@@ -41,7 +41,7 @@ jobs:
         name: Scan with Find Security Bugs
         kind: scan
         with:
-          language: LANGUAGE_JAVA
+          language: JAVA
       - uses: sbatchelder-cba/sonarqube-cba@v0.0.3
         name: Scan GP
         with:
