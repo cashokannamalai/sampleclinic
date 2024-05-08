@@ -46,4 +46,4 @@ jobs:
         name: Scan GP
         with:
           project-key: Testclinic
-          token: 5742e315b5a397c2873e849d4bc04a609f5de921
+          token: 51ba99f4fe5b6bf551f18c564beef00b8e435a1b
