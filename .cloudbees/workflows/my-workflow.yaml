@@ -43,14 +43,4 @@ jobs:
         with:
           project-key: Testclinic
           token: b3fd62df704afb15cd147f4182e9712d700a60a8
-  email-notification:
-    steps:
-      - name: Send email notification
-        uses: cloudbees-io/send-email-notification@v1
-        with:
-          server: smtp.gmail.com
-          port: 587
-          
-          to: ashok.alogicfocus@gmail.com
-          subject: Workflow Completed
-          body: Your workflow has been completed successfully.
+  
