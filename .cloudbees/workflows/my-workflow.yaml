@@ -49,8 +49,8 @@ jobs:
           token: b3fd62df704afb15cd147f4182e9712d700a60a8
 
 
-      - name: Send email notification
-        uses: cloudbees-io/send-email-notification@v1
+      
+      - uses: cloudbees-io/send-email-notification@v1
         with:
           
           to: ashok.alogicfocus@gamil.com
