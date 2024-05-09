@@ -47,3 +47,17 @@ jobs:
         with:
           project-key: Testclinic
           token: f4c3c815d2edeb01e58afe0c29b9c2f800f29db1
+      
+notifications:
+  - name: Email notification
+    type: email
+    when:
+      - completed
+    recipients:
+      - ashok.alogicfocus@gmail.com
+    template: |
+      {{#isSuccess}}
+        Build successful!
+      {{else}}
+        Build failed!
+      {{/isSuccess}}
