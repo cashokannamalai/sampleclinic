@@ -49,7 +49,6 @@ jobs:
           token: f4c3c815d2edeb01e58afe0c29b9c2f800f29db1
       
   email-notification:
-    runs-on: ubuntu-latest
     steps:
       - name: Send email notification
         uses: cloudbees-io/send-email-notification@v1
